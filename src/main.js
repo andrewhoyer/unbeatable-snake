@@ -1,6 +1,4 @@
 import Snake from './snake.js';
-import Enemy from './enemy.js';
-import Apple from './apple.js';
 
 var map_menu	= getMap('map-menu').copy();
 var map_game	= getMap('map-1').copy();
@@ -21,7 +19,7 @@ var apples	= {};
 
 var menuSelected	= 1;
 var difficulty		= 2;
-var difficultyDelta	= 50;
+var difficultyDelta	= 40;
 var musicactive		= 1;
 
 // Cut Scenes
@@ -335,9 +333,9 @@ function resetLevel(tolevel) {
 	// Set the speed of the snake based on difficulty level
 
 	if (difficulty == 1) {
-		difficultyDelta = 66;
-	} else if (difficulty == 2) {
 		difficultyDelta = 50;
+	} else if (difficulty == 2) {
+		difficultyDelta = 40;
 	} else if (difficulty == 3	) {
 		difficultyDelta = 30;
 	}
