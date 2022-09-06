@@ -9,8 +9,8 @@
 		"width": 128,
 		"height": 128,
 		"pixelSize": {
-			"width": 6,
-			"height": 6
+			"width": 5,
+			"height": 5
 		}
 	},
 	"tileSize": {
